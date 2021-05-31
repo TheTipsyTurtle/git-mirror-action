@@ -10,7 +10,7 @@ GIT_SSH_COMMAND="ssh -v"
 echo "SOURCE=$SOURCE_REPO"
 echo "HAHAHAH"
 echo "DESTINATION=$DESTINATION_REPO"
-echo 'dirname "$SOURCE_REPO"'
+#echo 'dirname "$SOURCE_REPO"'
 git clone --mirror "$SOURCE_REPO" && cd `dirname "$SOURCE_REPO"`
 echo "CLEANUP STARTED"
 # Cleaning
